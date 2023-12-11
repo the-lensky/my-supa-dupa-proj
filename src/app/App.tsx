@@ -13,6 +13,7 @@ const App = () => {
         <div className={classNames('app', {}, [theme])}>
             <Suspense fallback={<div className="page-wrapper">Загрузка...</div>}>
                 <Navbar />
+                ASadas
                 <div className="content-page">
                     <Sidebar />
                     <AppRouter />
